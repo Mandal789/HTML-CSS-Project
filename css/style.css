@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pathway+Extreme:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    background-color: #f1f3f6;
+    color: #212121;
+    line-height: 1.4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    width: 100%;
+    height: 55px;
+    background: #2874f0;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.second {
+    /* display: flex;
+     justify-content: space-evenly; 
+    width: 180vh;
+    margin-left: 26vh; */
+    display: flex;
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.logo a p {
+    font-size: 11px;
+}
+
+.plus {
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.txtplus {
+    margin: 0px 3px;
+    font-weight: bold;
+    color: #ffe100;
+}
+
+.pluslogo {
+    width: 11px;
+    height: 11px;
+    margin-left: -3px;
+    margin-top: 2px;
+}
+
+.logoimg {
+    width: 75px;
+    margin-bottom: -5px;
+}
+
+.inpt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14px;
+    width: 500px;
+}
+
+.inpt input {
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+}
+
+.inptsubbtn {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    border-radius: 0px 2px 2px 0px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+    fill: rgb(40, 116, 241);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.logintxt {
+    background-color: #fff;
+    color: #2874f0;
+    padding: 5px 40px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+    /* margin-left: 30px; */
+}
+
+.option {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .more p {
+    transform: rotateY(150deg);
+} */
+
+.main {
+    height: 3010px;
+}
+
+.container1 {
+    margin-top: 55px;
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .20);
+}
+
+.navcard {
+    width: 1201px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item img {
+    width: 64px;
+    height: 64px;
+}
+
+
+/* .slider img {
+    display: block;
+    margin: auto;
+    height: 70vh;
+}
+
+.slider {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    margin: auto;
+    height: 70vh;
+    overflow: hidden;
+} */
+
+
+/* .slider_item {
+    width: 100%;
+    height: 800px;
+    background-color: yellow;
+} */
+
+.slider_item .img {
+    width: 100%;
+    height: 280px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0px 0px 10px;
+}
+
+.about_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    height: 350px;
+    padding-left: 5px;
+}
+
+.add_topoffer {
+    width: 230px;
+    height: 100%;
+    background-image: url('https://rukminim1.flixcart.com/flap/278/278/image/e84ecf024bdc49f4.jpg?q=90');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/30c9dd7e9c28b96a.jpg?q=90') */
+}
+
+.viewall {
+    margin-top: 100px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.viewall button {
+    margin-top: 45px;
+    height: 37px;
+    background-color: #2874f0;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.items {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    /* padding-right: 40px; */
+}
+
+.itemplace {
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemplace img {
+    max-width: 200px;
+    max-height: 200px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s all ease-in-out;
+}
+
+.itemplace img:hover {
+    transform: scale(1.1);
+}
+
+.item_name {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.item_price {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+}
+
+.item_type {
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+/* .offers {
+    padding-left: 0;
+    padding-right: 8px;
+} */
+
+.offers .offers_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 0 5px;
+}
+
+.offers .offers_row img {
+    width: 33%;
+    height: 100%;
+    /* margin-left: 7px; */
+}
+
+footer {
+    height: 20vh;
+    background-color: #172337;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
